@@ -1,0 +1,19 @@
+{
+  "name": "gcloud-deploy-boilerplate",
+  "version": "0.0.0",
+  "description": "A boilerplate Express application that can be deployed to Google Compute Engine",
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "devDependencies": {
+    "gcloud-deploy": "^0.4.0"
+  },
+  "gcloudDeploy": {
+    "gcloud": {
+      "projectId": "__YOUR_PROJECT_ID__",
+      "keyFile": "/path/to/your/key/file.json"
+    }
+  }
+}
