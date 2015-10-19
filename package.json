@@ -8,7 +8,7 @@
     "express": "^4.13.3"
   },
   "devDependencies": {
-    "gcloud-deploy": "^0.4.0"
+    "gcloud-deploy": "^0.5.0"
   },
   "gcloudDeploy": {
     "gcloud": {
