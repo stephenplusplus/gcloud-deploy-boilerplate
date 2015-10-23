@@ -7,12 +7,14 @@ $ cd gcloud-deploy-sample-app
 $ npm install
 ```
 
+![Preview GIF (2.6MB)](preview.gif)
+
 See the [Prerequisites](https://github.com/stephenplusplus/gcloud-deploy#prerequisites) section of the gcloud-deploy documention for how to get started.
 
 Once you are ready to deploy, edit the `gcloudDeploy` object in the `package.json` file with your projectId and the path to your key file.
 
 ```bash
-$ gcloud-deploy
+$ npm run deploy
 ```
 
 Then, monitor the output to see the server initialize. Each output line should follow the format of:

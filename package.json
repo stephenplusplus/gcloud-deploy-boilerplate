@@ -15,5 +15,8 @@
       "projectId": "__YOUR_PROJECT_ID__",
       "keyFile": "/path/to/your/key/file.json"
     }
+  },
+  "scripts": {
+    "deploy": "gcloud-deploy"
   }
 }
